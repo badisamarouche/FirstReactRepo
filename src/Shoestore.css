@@ -1,0 +1,143 @@
+.fieldset{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100px;
+    border: none; 
+}
+.ShoeSideBar{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    width: 240px;
+    border-right: solid rgba(145, 143, 143, 0.47) 3px;
+
+
+}
+.icondiv{
+    position: relative;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ShoeSideBar>.icondiv>img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 60px;
+}
+.mainStore{
+    display: flex;
+    width: 100vw;
+}
+.Shoenavbar{
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid rgba(145, 143, 143, 0.47) 2px;
+
+}
+.navandmain{
+width:90% ;
+
+}
+.navbaricons{
+    display: flex;
+    gap: 30px;
+    margin: 25px;
+}
+.navbaricons>img{
+    height: 60%;
+    width: 40px;
+}
+.Shoenavbar>input{
+    border: none  ;
+    background-color:rgba(190, 189, 189, 0.286) ;
+    border-radius: 8px;
+    margin: 25px;
+    width: 260px;
+    height: 60%;
+    font-size: 18px;
+}
+#brandsbutton{
+    padding: 25px;
+}
+#brandbut{
+    padding:0px 10px 0px 10px;
+    margin-top:15px ;
+    margin-right: 10px;
+    width: fit-content;
+    font-size: 18px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.445);
+}
+.ShoeCard{
+    gap: 12px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.445);
+ ;
+}
+.ShoeCard>img{
+    width: 120px;
+    height: 70px;
+
+}
+.ShoeCard>img:hover{
+    width: 220px;
+    height: 130px;
+    translate : 0px -30px ;
+
+}
+.ShoeList{
+    margin:60px 40px 0px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+#starimg{
+    display: inline;
+    width: 15px;
+    height: 15px;
+}
+#oldprice{
+text-decoration: line-through;
+}
+.ShoeSideBar>.fieldset>label {
+cursor: pointer;
+
+}
+#brandsbutton>button{
+    cursor: pointer;
+}
+#brandsbutton>button:hover{
+    background-color: #dfdede;
+}
+#clicked{
+    padding:0px 10px 0px 10px;
+    margin-top:15px ;
+    margin-right: 10px;
+    width: fit-content;
+    font-size: 18px;
+    height: 30px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 8px 5px rgba(237, 112, 112, 0.445);
+}

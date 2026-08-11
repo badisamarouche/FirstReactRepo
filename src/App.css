@@ -1,0 +1,343 @@
+
+.maincontainer{
+background-color: #0B2434;
+width: 720px;
+height: 760px;
+position: relative;
+
+}
+.cont{
+    background-color: #F5F5F5;
+    width: 640px;
+    height: 640px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dice{
+display:grid;
+grid-template-rows: 90px 90px ;
+grid-template-columns: 90px 90px 90px 90px 90px ;
+gap: 40px;
+
+}
+.Diebutton{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    font-size: 54px;
+    border-radius: 6px;
+    border: none;
+    width: 72px ;
+    height: 72px;
+    font-weight: bold;
+    box-shadow:0px 3px 10px #0B2434 ;
+}
+.Diebutton:hover{
+    background-color: #f4f2f2;
+}
+#gameInstr{
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+}
+#title{
+    font-size: 56px;
+    margin: 25px;
+}
+#Roll{
+    width: 184px;
+    height: 70px;
+    margin-top: 25px;
+    background-color:#5035ffea ;
+    color: #FFFFFF;
+    font-size: 30px;
+    border: none;
+    border-radius: 8px;
+}
+#Roll:hover{
+    cursor: pointer;
+    background-color: #5035ff;
+}
+.ClickedButton{
+    color: #000000;
+    font-size: 54px;
+    border-radius: 6px;
+    border: none;
+    width: 72px ;
+    height: 72px;
+    font-weight: bold;
+    box-shadow:0px 3px 10px #0B2434 ;
+    background-color: #59E391;
+}
+.Biggestdiv{
+    display: flex;
+    gap: 30px;
+}
+
+.AssemblyContainer{
+    background-color: #0B2434;
+width: 720px;
+height: 900px;
+position: relative;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+
+}
+#Assemblytitle{
+color: #FFFFFF;
+font-size: 40px;
+}
+#Assemblyp{
+    color:#FFFFFF ;
+    font-size: 24px;
+    width: 500px;
+    text-align: center;
+    margin-top: 12px;
+}
+.Farewell{
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 80px;
+    background-color: #7A5EA7;
+    color:#FFF;
+    text-align: center;
+    font-size: 24px;
+}
+.languages{
+    margin-top: 20px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100px;
+}
+.theword{
+    background-color: #0B2434;
+    width: 600px ;
+    height: 60px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+.keyboard{
+    background-color: #0B2434;
+    width: 600px;
+    height: 240px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#keypad{
+    /* background-color:#FCBA29; */
+     width:60px;
+      height:60px;
+      border:solid 1px #FFF;
+       border-radius:6px;
+       font-size:24px;
+       font-weight:600;
+       cursor: pointer;
+}
+.yellow:hover{
+background-color: #d79810;
+}
+#keypad:disabled{
+    color: #000000;
+    cursor: auto;
+}
+.PlayAgainBut{
+    border-radius: 12px;
+    color: #f4f2f2;
+    font-size: 32px;
+    margin-top: 25px;
+    width: 300px;
+    height: 80px;
+    background-color: #5035ff;
+}
+.green{
+    background-color: rgb(0, 110, 0);
+    
+}
+.red{
+    background-color: rgb(255, 8, 8);
+    
+}
+
+.yellow{
+    background-color: #088cbd;
+}
+
+.lost::before{
+    content: "💀";
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.notguessed{
+    color: red;
+}
+.guessed{
+     color:#D9D9D9;}
+
+     .options{
+        position: absolute;
+        left: 10px;
+        top: 33px;
+     }
+     #difficulty{
+        width: 100px;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        font-size: 18px;
+     }
+     option{
+        height: 30px;
+        border-radius: 5px;
+        background-color: #e3e4e5;
+     }
+.Portal{
+    width: 10vw;
+    height: 60px;
+    min-width: 80px;
+    background-color: #7A5EA7;
+    position: absolute;
+    left: 45%;
+    bottom: 30px;
+    font-size: 24px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#false{
+    background-color: red;
+}
+#correct{ 
+    background-color: green;
+}
+
+#bigContext{
+    width: 700px;
+    height: 500px;
+    border: solid ;
+    padding-top: 50px;
+
+}
+#CompA{
+       width: 600px;
+    height: 370px;
+    border: solid ;
+    padding: 15px;
+}
+#CompB{
+       width: 500px;
+    height: 300px;
+    border: solid ;
+    padding: 15px;
+}
+#CompC{
+       width: 400px;
+    height: 200px;
+    border: solid ;
+    padding: 15px;
+}
+#CompD{
+       width: 300px;
+    height: 170px;
+    border: solid ;
+    padding: 0px;
+}
+#CompD> h1,h2,h3,h4,h5,h6{
+margin: 0px;
+}
+#nameinput{
+    height: 30px;
+    width: 220px;
+    font-size: 18px;
+}
+#updatebut{
+    height: 30px;
+    width: 100px;
+}
+.inputfield{
+    display: flex;
+    gap: 15px;
+}
+.mealCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1ded0;
+font-size: 10px;
+width: 280px;
+height: 260px;
+}
+.mealCard>img{
+    width: 220px;
+    height: 160px;
+}
+.mealslist{
+    height: 100vh;
+    margin-left: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.Testimonials{
+    padding: 5px;
+    background-color: #fff;
+    height: wrap;
+    width: 400px;
+    border: solid 1px black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    justify-content: center;
+    align-items: center;
+}
+.testim{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons>button{
+    margin: 10px;
+    width: 90px;
+    height: 30px;
+}
