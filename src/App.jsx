@@ -19,7 +19,7 @@ function App() {
 
   return(
     <div className='0'>
-      <ShoesStore/>
+      <AssemblyGame/>
   
      {/* <UserProvider>
       <UserProfile/>
